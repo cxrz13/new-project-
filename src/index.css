@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", serif;
+  --font-body: "Outfit", sans-serif;
+  --color-naan-maroon: #7a1e1e;
+  --color-naan-gold: #d4a017;
+  --color-naan-cream: #f7f0e4;
+  --color-naan-ink: #1f1612;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-naan-ink);
+  background: var(--color-naan-cream);
+}
+
+#root {
+  min-height: 100vh;
+}
